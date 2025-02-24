@@ -35,15 +35,6 @@ div#lapis {
 
 }
 
-div#lapis h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333;
-    background-color: yellow;
-    border: 10px solid red;
-    border-radius: 5px;
-}
-
 div#conteudo {
 
     text-align: left;
@@ -60,9 +51,8 @@ div#conteudo {
 
 }
 
-div#material {
-    background-image: url('lapis.jpg');
-    background-size: cover;
+img{
+     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
     top: 40%;
@@ -72,10 +62,24 @@ div#material {
     height: 100px;
 }
 
-#botao {
+.botao {
     position: absolute;
     top: 90%;
-    left: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 93px;
+}
+.compra {
+    padding: 8px;
+    position: absolute;
+    top: 90%;
+    left: 70%;
     transform: translate(-50%, -50%);
     text-align: center;
     background: #333;
@@ -86,33 +90,6 @@ div#material {
     width: 93px;
 }
 
-div#material2 {
-    background-image: url('mochila.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 46%;
-    left: 37%;
-
-    width: 100px;
-    height: 100px;
-}
-
-div#conteudo2 {
-
-    text-align: left;
-    margin: 0 auto;
-    margin: auto;
-    padding: 10px;
-    position: relative;
-
-    right: 40%;
-    bottom: 30px;
-    width: 100px;
-    height: 100px;
-
-
-}
 
 div#mochila {
     position: absolute;
@@ -131,47 +108,8 @@ div#mochila {
 
 }
 
-div#mochila h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333;
-    background-color: yellow;
-    border: 10px solid red;
-    border-radius: 5px;
-}
-
-div#mochila h2 {
-    text-align: center;
-
-}
-
-div#material3 {
-    background-image: url('caderno.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 46%;
-    left: 27%;
-
-    width: 100px;
-    height: 100px;
-}
-
-div#conteudo3 {
-
-    text-align: left;
-    margin: 0 auto;
-    margin: auto;
-    padding: 10px;
-    position: relative;
-
-    right: 40%;
-    bottom: 30px;
-    width: 100px;
-    height: 100px;
 
 
-}
 
 div#caderno {
     position: absolute;
@@ -190,7 +128,7 @@ div#caderno {
 
 }
 
-div#caderno h1 {
+h1 {
     font-size: 24px;
     margin-bottom: 20px;
     color: #333;
@@ -199,37 +137,16 @@ div#caderno h1 {
     border-radius: 5px;
 }
 
-div#caderno h2 {
-    text-align: center;
-
-}
-div#material4 {
-    background-image: url('caneta.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 46%;
-    left: 27%;
-
-    width: 100px;
-    height: 100px;
-}
-
-div#conteudo4 {
-
+ h2{
     text-align: left;
-    margin: 0 auto;
-    margin: auto;
-    padding: 10px;
-    position: relative;
-
-    right: 40%;
-    bottom: 30px;
-    width: 100px;
-    height: 100px;
-
 
 }
+h3,h4,h5,h6 {
+    text-align:left;
+    
+}
+
+
 
 div#caneta {
     position: absolute;
@@ -248,19 +165,6 @@ div#caneta {
 
 }
 
-div#caneta h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333;
-    background-color: yellow;
-    border: 10px solid red;
-    border-radius: 5px;
-}
-
-div#caneta h2 {
-    text-align: center;
-
-}
 p{
     color: white;
 }
