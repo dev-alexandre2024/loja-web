@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cartao.css">
+</head>
+<body>
+    <form action="" id="meuformulario" autocomplete="off">
+    <p>
+        <label for="inome">Nome:</label>
+        <input type="text" name="nome" id="nome-cadastro" placeholder="Digite seu nome">
+    </p>
+    <p>
+        <label for="isobrenome">Sobrenome:</label>  
+        <input type="text" name="Sobrenome" id="sobrenome-cadastro" placeholder="Digite seu sobrenome">
+    </p>
+    <p>
+        <label for="inome">E-mail:</label>
+        <input type="email" name="email" id="email-cadastro" placeholder="Digite seu e-mail">
+    </p>
+
+<p>
+        <label for="inome">Senha:</label>
+        <input type="password" name="senha" id="senha-cadastro" placeholder="Digite sua senha">
+</p>
+<p>
+  <button type="submit">Gerar numero</button>
+</p>
+<p id="resultado"></p>
+</form>
+<script>
+  
+    document.addEventListener("DOMContentLoaded", function() {
+
+        document.getElementById("meuFormulario").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            let numeroAleatorio = Math.floor(Math.random() * 50 );
+
+            document.getElementById("resultado").textContent = "Número gerado: " + numeroAleatorio;
+        });
+    });
+
+</script>
+
+</body>
+</html>
