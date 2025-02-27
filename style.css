@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-image: url(fundo.webp);
+    background-image: url(img/fundo.webp);
     background-size: cover;
     background-repeat: no-repeat;
     color: #333;
@@ -94,8 +94,8 @@ img {
 .pagamento {
     padding: 8px;
     position: absolute;
-    top: 90%;
-    left: 60%;
+    top: 60%;
+    left: 95%;
     transform: translate(-50%, -50%);
     text-align: center;
     background: #333;
@@ -103,14 +103,15 @@ img {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: 93px;
+    width: 120px;
+    height: 120px;
 }
 
-#pagamento {
-    padding: 8px;
+.cartao {
+    padding: 8px;             
     position: absolute;
-    top: 90%;
-    left: 50%;
+    left: 95%;
+    top: 40%;
     transform: translate(-50%, -50%);
     text-align: center;
     background: #333;
@@ -118,7 +119,8 @@ img {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: 93px;
+    width: 120px;
+    height: 120px;
 }
 
 div#mochila {
@@ -180,7 +182,7 @@ h6 {
 img.carrinho {
     position: absolute;
     top: 90%;
-    left: 40%;
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 100px;
     height: 100px;
@@ -213,4 +215,20 @@ div#caneta {
 
 p {
     color: white;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+  
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
 }
