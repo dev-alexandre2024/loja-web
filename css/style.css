@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../img/fundo.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6em;
+    overflow: hidden;
+}
+
+div#lapis {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+div#conteudo {
+
+    text-align: left;
+    margin: 0 auto;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+
+    right: 40%;
+    bottom: 30px;
+    width: 100px;
+    height: 100px;
+
+
+}
+
+img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 40%;
+    left: 34%;
+
+    width: 100px;
+    height: 100px;
+}
+
+.botao {
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 93px;
+}
+
+.compra {
+    padding: 8px;
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 93px;
+}
+
+.pagamento {
+    padding: 8px;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    height: 220px;
+}
+
+.cartao {
+    padding: 8px;             
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    height: 220px;
+}
+
+div#mochila {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+div#caderno {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    background-color: yellow;
+    border: 10px solid red;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: left;
+
+}
+
+h3,
+h4,
+h5,
+h6 {
+    text-align: left;
+
+}
+
+img.carrinho {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 40%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+div#caneta {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+  
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+}
