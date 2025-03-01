@@ -1,51 +1,145 @@
 img {
-    width: 35pc;
-    height: 35pc;
+    position: absolute;
+    top: 10%;
     border: 1px black solid;
     border-radius: 10%;
+    left: 5%;
 }
-
+p {
+    flex-direction: row;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    border: 1px black solid;
+    
+}
 body {
+    display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
     background-color: #f0f0f0;
-    display: flex;
     font-family: cursive, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: 0;
 }
-
 a {
     text-decoration: none;
     color: black;
+
+}
+#titulo
+{
+    position: absolute;
+    top: 15%;
+    left: 45%;
+
+}
+#descricao{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    right: 10%;
+}
+#motivo{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    right: 10%;
+}
+#motivo2{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    right: 10%;
+}
+#motivo3{
+    position: absolute;
+    top: 47%;
+    left: 40%;
+    right: 10%;
+}
+#motivo4{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    right: 10%;
+}
+#comprar4{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    right: 10%;
+}
+#comprar3{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    right: 10%;
+}
+#comprar2{
+    position: absolute;
+    top: 59%;
+    left: 40%;
+    right: 10%;
+}
+#comprar{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    right: 10%;
 }
 
-div {
+.fim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #ff9f00;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin: 0 auto;
-    margin: auto;
-    padding: 10px;
-    position: relative;
-    border: 1px black solid;
+    border: 1px solid black;
     border-radius: 20%;
     width: 100px;
     height: 100px;
+    padding: 10px;
+    top: 70%;
+    left:15% ;
+    position:absolute;
 }
-
-#cupons {
+.cupons, div {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    margin: auto;
-    padding: 10px;
-    position: relative;
-    border: 1px black solid;
+    background-color: #ff9f00;
+    border: 1px solid black;
     border-radius: 20%;
     width: 100px;
     height: 100px;
+    padding: 10px;
+    top: 70%;
+    left: 5%;
+    position:absolute;
+}
+h1{
+    position: absolute;
+    top: 1%;
+    left: 55%;
+}
+h1.final {
+position: absolute;
+top:0% ;
+left: 5%;
+}
+h2 {
+position: absolute;
+top:50% ;
+left: 5%;
+}
+h3 {
+position: absolute;
+top:45% ;
+left: 5%;
+}
+h4{
+    position: absolute;
+    top: 55%;
+    left: 5%;
 }
